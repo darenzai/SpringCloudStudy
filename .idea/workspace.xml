@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c163b9e-62f9-408d-9d14-76f666fa7fb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/OrderFeiginMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeiginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/src/main/java/com/atguigu/springcloud/OrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/src/main/java/com/atguigu/springcloud/controller/OrderHystirxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-frign-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/myrule/MyselfRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/config/GateWayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/conrtoller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/conrtoller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/OrderMain80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/conrtoller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/conrtoller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/service/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c163b9e-62f9-408d-9d14-76f666fa7fb6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,16 +279,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -350,7 +304,9 @@
       <workItem from="1617326949169" duration="3616000" />
       <workItem from="1617358786586" duration="14137000" />
       <workItem from="1617411077290" duration="1885000" />
-      <workItem from="1617533437585" duration="8065000" />
+      <workItem from="1617533437585" duration="8669000" />
+      <workItem from="1617586242653" duration="1873000" />
+      <workItem from="1617591756700" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="3/31">
       <created>1617151068322</created>
@@ -428,38 +384,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1617237829291" />
-    <state width="1043" height="142" key="GridCell.Tab.0.bottom" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.0.bottom" timestamp="1617551800367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
-    <state width="1043" height="142" key="GridCell.Tab.0.center" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617551800367" />
+    <state width="1043" height="286" key="GridCell.Tab.0.center" timestamp="1617551800367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
-    <state width="1043" height="142" key="GridCell.Tab.0.left" timestamp="1617547917930">
+    <state width="1043" height="286" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617551800367" />
+    <state width="1043" height="286" key="GridCell.Tab.0.left" timestamp="1617551800367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617547917930" />
-    <state width="1043" height="142" key="GridCell.Tab.0.right" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617551800367" />
+    <state width="1043" height="286" key="GridCell.Tab.0.right" timestamp="1617551800367">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
-    <state width="1043" height="142" key="GridCell.Tab.1.bottom" timestamp="1617547917932">
+    <state width="1043" height="286" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617551800367" />
+    <state width="1043" height="286" key="GridCell.Tab.1.bottom" timestamp="1617551800368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617547917932" />
-    <state width="1043" height="142" key="GridCell.Tab.1.center" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617551800368" />
+    <state width="1043" height="286" key="GridCell.Tab.1.center" timestamp="1617551800368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
-    <state width="1043" height="142" key="GridCell.Tab.1.left" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1617551800368" />
+    <state width="1043" height="286" key="GridCell.Tab.1.left" timestamp="1617551800368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
-    <state width="1043" height="142" key="GridCell.Tab.1.right" timestamp="1617547917931">
+    <state width="1043" height="286" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1617551800368" />
+    <state width="1043" height="286" key="GridCell.Tab.1.right" timestamp="1617551800368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1043" height="142" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1617547917931" />
+    <state width="1043" height="286" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1617551800368" />
     <state width="1010" height="148" key="GridCell.Tab.2.bottom" timestamp="1617260338194">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
